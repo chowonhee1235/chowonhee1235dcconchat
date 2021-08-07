@@ -71,7 +71,7 @@ if(typeof window.config.channelname === 'undefined') {
     if(typeof window.tapic !== 'undefined' && typeof window.tapic.channelname !== 'undefined') {
         window.config.channelname = window.tapic.channelname;
     } else {
-        window.config.channelname = "funzinnu";
+        window.config.channelname = "chowonhee1235";
     }
 }
 
