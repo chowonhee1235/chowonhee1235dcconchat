@@ -95,6 +95,7 @@ body{background:transparent}.chat_container{width:100%;position:absolute;bottom:
     max-height: 95px;
     color: rgba(255,255,255,.55)!important;
     opacity: .95;
+    z-index: 2;
 }
 .chat_div .chat_platform_tvpot,.chat_div  .chat_platform_twitch,.chat_div  .chat_platform_youtube, .chat_platform_info{
     display: block!important;
@@ -105,13 +106,14 @@ body{background:transparent}.chat_container{width:100%;position:absolute;bottom:
     bottom: -12px!important;
 }
 img{
-    max-width: 95px;
+    max-width: 180px;
     margin: 0 auto;
     margin-top: -3px;
     margin-bottom: -3px;
     align-self: center;
     display: block;
     overflow: scroll;
+    z-index: 1;
 }
 /*스트리머뱃지*/
 .chat_text_nickname img{
