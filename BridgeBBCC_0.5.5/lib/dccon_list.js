@@ -1,5 +1,5 @@
 ﻿dcConsData = [
-	{name:"소닉링없찐.gif", 	keywords:["링없찐"], 							tags:["소닉", "소닉매니아"]},
+    {name:"소닉링없찐.gif", 	keywords:["링없찐"], 							tags:["소닉", "소닉매니아"]},
 	{name:"소닉결혼반지.png",	keywords:["결혼반지"],						tags:["소닉", "소닉매니아"]},
 	{name:"주인님.png",				keywords:["주인님"],							tags:["자살"]},
 	{name:"겉바속촉.gif",			keywords:["겉바속촉", "가로쉬"],	tags:["와우", "헬스크림"]},
@@ -58,6 +58,9 @@
 	{name:"구울.png", 	keywords:["구울"], 							tags:["디시콘"]},
 	{name:"대머리.gif", 	keywords:["대머리"], 							tags:["디시콘"]},
 	{name:"머머리.gif", 	keywords:["머머리"], 							tags:["디시콘"]},
+	{name:"스윗.gif", 	keywords:["스윗"], 							tags:["띠껍티콘"]},
+	{name:"구울.png", 	keywords:["구울"], 							tags:["띠껍티콘"]},
+
 	
     {name:"꼴.png", 	keywords:["꼴"], 							tags:["둘리"]},
     {name:"ㅋㅋ또치.png", 	keywords:["ㅋㅋ또치"], 							tags:["둘리"]},
@@ -66,5 +69,28 @@
     {name:"아이.png", 	keywords:["아이"], 							tags:["둘리"]},
     {name:"처신.png", 	keywords:["처신"], 							tags:["둘리"]},
     {name:"초능력.png", 	keywords:["초능력"], 							tags:["둘리"]},
-    {name:"어서오고.png", 	keywords:["어서오고"], 							tags:["둘리"]}
+    {name:"어서오고.png", 	keywords:["어서오고"], 							tags:["둘리"]},
+	
+	{name:"강등.png", 	keywords:["강등"], 							tags:["띠껍티콘"]},
+	{name:"경고1.png", 	keywords:["경고1"], 							tags:["띠껍티콘"]},
+    {name:"경고2.png", 	keywords:["경고2"], 							tags:["띠껍티콘"]},
+	{name:"고고.png", 	keywords:["고고"], 							tags:["띠껍티콘"]},
+	{name:"노래.png", 	keywords:["노래"], 							tags:["띠껍티콘"]},
+	{name:"돈1.png", 	keywords:["돈1"], 							tags:["띠껍티콘"]},
+    {name:"돈2.png", 	keywords:["돈2"], 							tags:["띠껍티콘"]},
+	{name:"돌.png", 	keywords:["돌"], 							tags:["띠껍티콘"]},
+	{name:"라노벨.png", 	keywords:["라노벨"], 							tags:["띠껍티콘"]},
+	{name:"선생님.png", 	keywords:["선생님"], 							tags:["띠껍티콘"]},
+	{name:"설명.png", 	keywords:["설명"], 							tags:["띠껍티콘"]},
+    {name:"승차.png", 	keywords:["승차"], 							tags:["띠껍티콘"]},
+	{name:"어금니.png", 	keywords:["어금니"], 							tags:["띠껍티콘"]},
+	{name:"예스.png", 	keywords:["예스"], 							tags:["띠껍티콘"]},
+	{name:"와들.png", 	keywords:["와들"], 							tags:["띠껍티콘"]},
+	{name:"풉.png", 	keywords:["풉"], 							tags:["띠껍티콘"]},
+    {name:"하트.png", 	keywords:["하트"], 							tags:["띠껍티콘"]},
+	{name:"행운.png", 	keywords:["행운"], 							tags:["띠껍티콘"]},
+	{name:"흔들.png", 	keywords:["흔들"], 							tags:["띠껍티콘"]},
+	{name:"힝.png", 	keywords:["힝"], 							tags:["띠껍티콘"]},
+    {name:"깡통.png", 	keywords:["깡통"], 							tags:["띠껍티콘"]}
+	
 ];

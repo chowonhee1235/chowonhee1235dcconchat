@@ -138,7 +138,7 @@ body {
 }
 .chat_msg_box {
   padding: 0.85rem;
-  max-height: 40rem; /* 텍스트 영역 최대 높이 */
+  max-height: 80rem; /* 텍스트 영역 최대 높이 */
   overflow: hidden;
 
   font-size: 2rem; /* 본문 텍스트 크기만 수정하려면 여기 */
@@ -161,7 +161,7 @@ body {
   height: 2rem;
 }
 .dccon {
-  height: 8.45rem;
+  height: 9.45rem;
 }
 
 /* Special Cases */
