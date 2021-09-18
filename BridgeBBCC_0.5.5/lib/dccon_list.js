@@ -58,8 +58,7 @@
 	{name:"구울.png", 	keywords:["구울"], 							tags:["디시콘"]},
 	{name:"대머리.gif", 	keywords:["대머리"], 							tags:["디시콘"]},
 	{name:"머머리.gif", 	keywords:["머머리"], 							tags:["디시콘"]},
-	{name:"스윗.gif", 	keywords:["스윗"], 							tags:["띠껍티콘"]},
-	{name:"구울.png", 	keywords:["구울"], 							tags:["띠껍티콘"]},
+	{name:"스윗.gif", 	keywords:["스윗"], 							tags:["디시콘"]},
 
 	
     {name:"꼴.png", 	keywords:["꼴"], 							tags:["둘리"]},
@@ -91,6 +90,8 @@
 	{name:"행운.png", 	keywords:["행운"], 							tags:["띠껍티콘"]},
 	{name:"흔들.png", 	keywords:["흔들"], 							tags:["띠껍티콘"]},
 	{name:"힝.png", 	keywords:["힝"], 							tags:["띠껍티콘"]},
-    {name:"깡통.png", 	keywords:["깡통"], 							tags:["띠껍티콘"]}
+    {name:"깡통.png", 	keywords:["깡통"], 							tags:["띠껍티콘"]},
+	
+	{name:"조원희_.png", 	keywords:["조원희"], 							tags:["메이플"]}
 	
 ];
