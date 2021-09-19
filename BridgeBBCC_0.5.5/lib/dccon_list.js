@@ -59,6 +59,7 @@
 	{name:"대머리.gif", 	keywords:["대머리"], 							tags:["디시콘"]},
 	{name:"머머리.gif", 	keywords:["머머리"], 							tags:["디시콘"]},
 	{name:"스윗.gif", 	keywords:["스윗"], 							tags:["디시콘"]},
+	{name:"무야호.gif", 	keywords:["무야호"], 							tags:["디시콘"]},
 
 	
     {name:"꼴.png", 	keywords:["꼴"], 							tags:["둘리"]},
