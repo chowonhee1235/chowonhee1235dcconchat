@@ -55,7 +55,7 @@
     {name:"누렁.png", 	keywords:["누렁"], 							tags:["핑키빈콘"]},
 	{name:"돈주머니.png", 	keywords:["돈주머니"], 							tags:["핑키빈콘"]},
 	{name:"땀.png", 	keywords:["땀"], 							tags:["핑키빈콘"]},
-	{name:"핑키빈물음표.png", 	keywords:["핑키빈?","?","물음표"], 							tags:["핑키빈콘"]},
+	{name:"핑키빈물음표.png", 	keywords:["핑키빈?","핑키빈물음표"], 							tags:["핑키빈콘"]},
     {name:"뷰지.png", 	keywords:["뷰지"], 							tags:["핑키빈콘"]},
 	{name:"비추.png", 	keywords:["비추"], 							tags:["핑키빈콘"]},
 	{name:"뽀송.png", 	keywords:["뽀송"], 							tags:["핑키빈콘"]},
