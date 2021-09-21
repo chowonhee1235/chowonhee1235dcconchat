@@ -120,7 +120,7 @@
 	{name:"예스.png", 	keywords:["예스"], 							tags:["띠껍티콘"]},
 	{name:"와들.png", 	keywords:["와들"], 							tags:["띠껍티콘"]},
 	{name:"풉.png", 	keywords:["풉"], 							tags:["띠껍티콘"]},
-    {name:"하트.png", 	keywords:["하트"], 							tags:["띠껍티콘"]},
+    {name:"띠껍하트.png", 	keywords:["띠껍하트"], 							tags:["띠껍티콘"]},
 	{name:"행운.png", 	keywords:["행운"], 							tags:["띠껍티콘"]},
 	{name:"흔들.png", 	keywords:["흔들"], 							tags:["띠껍티콘"]},
 	{name:"힝.png", 	keywords:["힝"], 							tags:["띠껍티콘"]},
