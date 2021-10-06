@@ -77,7 +77,7 @@
 	{name:"마츠리헤헤.png", 	keywords:["마츠리헤헤"], 							tags:["마츠리욥콘"]},
 	{name:"메롱.png", 	keywords:["메롱"], 							tags:["마츠리욥콘"]},
 	{name:"메자.png", 	keywords:["메자"], 							tags:["마츠리욥콘"]},
-	{name:"바위.png", 	keywords:["ㅁㄹㅋㅋ"], 							tags:["마츠리욥콘"]},
+	{name:"바위.png", 	keywords:["바위"], 							tags:["마츠리욥콘"]},
 	{name:"비석.png", 	keywords:["비석"], 							tags:["마츠리욥콘"]},
 	{name:"사랑해.png", 	keywords:["사랑해"], 							tags:["마츠리욥콘"]},
 	{name:"스윽.png", 	keywords:["스윽"], 							tags:["마츠리욥콘"]},
@@ -116,6 +116,7 @@
 	{name:"뺨2.png", 	keywords:["뺨2"], 							tags:["페임몬"]},
   
     {name:"조원희_.png", 	keywords:["조원희"], 							tags:["메이플"]},
+    {name:"메르세데스.png", 	keywords:["메르세데스"], 							tags:["메이플"]},
 
 
 	
@@ -139,6 +140,25 @@
 	{name:"행운.png", 	keywords:["행운"], 							tags:["띠껍티콘"]},
 	{name:"흔들.png", 	keywords:["흔들"], 							tags:["띠껍티콘"]},
 	{name:"힝.png", 	keywords:["힝"], 							tags:["띠껍티콘"]},
-    {name:"깡통.png", 	keywords:["깡통"], 							tags:["띠껍티콘"]}
+    {name:"깡통.png", 	keywords:["깡통"], 							tags:["띠껍티콘"]},
+	
+    {name:"ㄷㄷㄷ.png", 	keywords:["ㄷㄷㄷ"], 							tags:["달내콘"]},
+    {name:"귀여워.png", 	keywords:["귀여워"], 							tags:["달내콘"]},    
+	{name:"기웃.png", 	keywords:["기웃"], 							tags:["달내콘"]},
+    {name:"나빠.png", 	keywords:["나빠"], 							tags:["달내콘"]},
+    {name:"달내박수.gif", 	keywords:["달내박수"], 							tags:["달내콘"]},
+    {name:"달내주먹.png", 	keywords:["달내주먹"], 							tags:["달내콘"]},
+    {name:"몰라.png", 	keywords:["몰라"], 							tags:["달내콘"]},
+    {name:"미안.png", 	keywords:["미안"], 							tags:["달내콘"]},
+    {name:"배고파.png", 	keywords:["배고파"], 							tags:["달내콘"]},
+    {name:"수구바이.png", 	keywords:["수구바이"], 							tags:["달내콘"]},
+    {name:"야메로.png", 	keywords:["ㅇㅇ"], 							tags:["달내콘"]},
+    {name:"에헤.png", 	keywords:["에헤"], 							tags:["달내콘"]},
+    {name:"오.png", 	keywords:["오"], 							tags:["달내콘"]},
+    {name:"하아아.png", 	keywords:["하아아"], 							tags:["달내콘"]},
+    {name:"하이.png", 	keywords:["하이"], 							tags:["달내콘"]},
+    {name:"헐.png", 	keywords:["헐"], 							tags:["달내콘"]},
+    {name:"꼬마워.png", 	keywords:["꼬마워"], 							tags:["달내콘"]},
+	{name:"와락.png", 	keywords:["와락"], 							tags:["달내콘"]},
 	
 ];
