@@ -116,7 +116,7 @@
 	{name:"뺨2.png", 	keywords:["뺨2"], 							tags:["페임몬"]},
   
     {name:"조원희_.png", 	keywords:["조원희"], 							tags:["메이플"]},
-    {name:"메르세데스.png", 	keywords:["메르세데스"], 							tags:["메이플"]},
+    {name:"메르세데이스.png", 	keywords:["메르세데스"], 							tags:["메이플"]},
 
 
 	
