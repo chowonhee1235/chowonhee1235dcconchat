@@ -47,45 +47,6 @@
     <script src="./js/chat-loader.js?ver=20200226"></script>
     <link rel="stylesheet" href="https://chat.lastorder.xyz/css/jsassist.css" type="text/css"/>
     <link rel="stylesheet" href="https://chat.lastorder.xyz/css/chatassist.css" type="text/css"/>
-    <!-- 아래로 커스텀 CSS 추가 -->
-    <style>
-    </style>
-</head>
-<body>
-<script id="chat-template" type="text/x-handlebars-template">
-    <div class="chat_div" id="chat_{{num}}">
-        <span class="chat_platform_{{platform}}"></span>
-        <span class="chat_text_nickname">
-            {{{nickname}}}
-        </span>
-        <div class="chat_text_message">
-            {{{message}}}
-        </div>
-    </div>
-</script>
-<script id="chat-template-sticky" type="text/x-handlebars-template">
-    <div class="fixed_chat">
-    {{#ifCond nickname notitle}}
-        <div class="chat_text_message_sticky_logo">
-            {{{message}}}
-        </div>
-    {{else}}
-        <span class="chat_platform_{{platform}}"></span>
-        <span class="chat_text_nickname">
-            {{{nickname}}}
-        </span>
-        <div class="chat_text_message_sticky">
-            {{{message}}}
-        </div>
-    {{/ifCond}}
-    </div>
-</script>
-<div class="chat_wrapper">
-    <div class="chat_container">
-    </div>
-</div>
-</body>
-</html>
 
       
     
