@@ -25,7 +25,7 @@ window.chat.count = 0;
 window.chat.cur_count = 0;
 window.chat.maxcount = 20;
 window.chat.emoticonfailcount = 0;
-window.chat.sticky = true;
+window.chat.sticky = false;
 
 // 채팅 스타일 가져옴
 window.chat.config = (typeof window.config.chat !== 'undefined') ? window.config.chat : {};
