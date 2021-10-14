@@ -6,7 +6,7 @@
         // ChatAssist 설정 변수
         window.config = {};
         
-        window.config.allowExternalSource = false; // 외부이미지([img 주소] 문법) 허용하려면 true로 변경
+        window.config.allowExternalSource = true; // 외부이미지([img 주소] 문법) 허용하려면 true로 변경
         window.config.allowEmoticon = true; // 디시콘 사용가능유무 사용금지로 바꾸려면 false로 변경
         window.config.ignoreMQEmoticon = true; // 마퀴태그+디시콘 사용여부 사용하려면 false로 변경
         window.config.ignoreNickname = "nightbot,twipkr" // 필터링할 닉네임 목록(,로 구분)
@@ -48,5 +48,114 @@
     <link rel="stylesheet" href="https://chat.lastorder.xyz/css/jsassist.css" type="text/css"/>
     <link rel="stylesheet" href="https://chat.lastorder.xyz/css/chatassist.css" type="text/css"/>
     <!-- 아래로 커스텀 CSS 추가 -->
-    <style>
-    /*여기서부터 커스텀 CSS*/
+    </style">
+.chat_div .chat_text_nickname{
+    font-family: "Dotum", 돋움, Sans-Serif!important;
+    font-size: 12px!important;
+    background-color: #2f4343;
+    background-image: url("..//img/x_button_b.png");
+    border-top: #9fafaf solid 1px;
+    border-left: #9fafaf solid 1px;
+    border-bottom: #9fafaf solid 1px;
+    border-right: #9fafaf solid 1px;
+    display: block;
+    text-shadow: 0px 0px 0px #000000!important;
+    width: 170px;
+    text-align: center;
+    border-radius: 1px 1px 0px 0px;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0)!important;
+}
+.chat_div .chat_text_message{
+    font-family: "나눔고딕","nanumgothic", Sans-Serif!important;
+    font-size: 12.5!important;
+    color: #000000!important;
+    width: 170px!important;
+    text-shadow: 0px 0px 0px #000000!important;
+    background-color: #839797!important;
+    border-top: #9fafaf solid 1px;
+    border-left: #9fafaf solid 1px;
+    border-bottom: #9fafaf solid 1px;
+    border-right: #9fafaf solid 1px;
+    border-radius: 0px 0px 0px 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0)!important;
+    margin-bottom: 0px!important;
+    max-height: 95px;
+}
+.chat_div .chat_platform_tvpot,.chat_div  .chat_platform_twitch,.chat_div  .chat_platform_youtube,.chat_div  .chat_platform_mixer,.chat_platform_info{
+    display: block!important;
+    position: relative!important;
+    width: 12px!important;
+    left: 156px!important;
+    bottom: -14px!important;
+}
+img{
+        max-width: 95px;
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-bottom: 25px;
+        align-self: center;
+        display: block;
+        overflow: scroll;
+        vertical-align: bottom;
+        max-height:400px;
+}
+
+.chat_text_nickname img{/*스트리머뱃지*/
+    display: inline;
+    height: 12px;
+    position: absolute;
+    left: 2px;
+    margin:0px;
+    margin-top: 1px;
+}
+@keyframes rotation {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(359deg);}
+}
+.twitch_emoticon{/*트위치이모티콘*/
+    display: inline;
+    margin-right: -4px;
+    margin-bottom: 1px;
+}
+    </style>
+</head>
+<body>
+<script id="chat-template" type="text/x-handlebars-template">
+    <div class="chat_div" id="chat_{{num}}">
+        <span class="chat_platform_{{platform}}"></span>
+        <span class="chat_text_nickname">
+            {{{nickname}}}
+        </span>
+        <div class="chat_text_message">
+            {{{message}}}
+        </div>
+    </div>
+</script>
+<script id="chat-template-sticky" type="text/x-handlebars-template">
+    <div class="fixed_chat">
+    {{#ifCond nickname notitle}}
+        <div class="chat_text_message_sticky_logo">
+            {{{message}}}
+        </div>
+    {{else}}
+        <span class="chat_platform_{{platform}}"></span>
+        <span class="chat_text_nickname">
+            {{{nickname}}}
+        </span>
+        <div class="chat_text_message_sticky">
+            {{{message}}}
+        </div>
+    {{/ifCond}}
+    </div>
+</script>
+<div class="chat_wrapper">
+    <div class="chat_container">
+    </div>
+</div>
+</body>
+</html>
+
+      
+    
