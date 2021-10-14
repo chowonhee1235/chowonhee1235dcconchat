@@ -1,0 +1,52 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>ChatAssistX 1.8.1.0</title>
+    <script>
+        // ChatAssist 설정 변수
+        window.config = {};
+        
+        window.config.allowExternalSource = false; // 외부이미지([img 주소] 문법) 허용하려면 true로 변경
+        window.config.allowEmoticon = true; // 디시콘 사용가능유무 사용금지로 바꾸려면 false로 변경
+        window.config.ignoreMQEmoticon = true; // 마퀴태그+디시콘 사용여부 사용하려면 false로 변경
+        window.config.ignoreNickname = "nightbot,twipkr" // 필터링할 닉네임 목록(,로 구분)
+        window.config.enableTwitchEmoticon = true; // 트위치 이모티콘 사용여부
+        window.config.TwitchEmoticonsize = "1.0"; //트위치 이모티콘 크기 1.0/2.0/3.0 처럼 입력
+        
+        // 1.6.1.0 추가 - 채널명 입력
+        // 기존 tapic은 더이상 사용하지 않습니다.
+        window.config.channelname = "chowonhee1235"
+        // 이모티콘
+        window.emoticon = {};
+        window.emoticon.address = "https://funzinnu.com/stream/dccon.js";
+        window.emoticon.isActive = false; // 이모티콘 목록 불러와졌는지 여부
+        window.emoticon.list = {}; // 이모티콘 목록(위 address에서 불러와서 채워짐)
+        
+        // 치환 리스트
+        // 입력한 단어는 채팅 위젯에서 치환되어 보입니다
+        // 비울경우 {}로 대체
+        window.config.replace = {
+            "원게더":"원희 트게더",
+            "원박이":"원희 시청자",
+            "원둥이":"원희 시청자"
+        }
+        
+        // 익명화 설정
+        // 방송에 표시되는 닉네임만 익명화할수 있습니다.
+        window.config.anon = false; // 익명 사용시 true
+        window.config.anon_nickname = "손님";
+        window.config.anon_random = false; // 랜덤 숫자를 붙이려면 "number" 랜덤 문자열을 붙이려면 "string"
+        window.config.random_length = 4; // 랜덤 숫자/닉네임 길이 지정(위에서 number나 string 지정시)
+        window.config.fix_random_id = false; // 랜덤 닉네임 고정(같은 시청자는 같은 랜덤 문자 배정) 활성화시 true - 새로고침시 초기화됨
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-ui-dist@1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-ui-dist@1.12.1/jquery-ui.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.3.3/dist/handlebars.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Lastorder-DC/referrer-killer@84a087203af378c45782a406a58ad2d588ae36c2/referrer-killer.js"></script>
+    <script src="./js/chat-loader.js?ver=20200226"></script>
+    <link rel="stylesheet" href="https://chat.lastorder.xyz/css/jsassist.css" type="text/css"/>
+    <link rel="stylesheet" href="https://chat.lastorder.xyz/css/chatassist.css" type="text/css"/>
+    <!-- 아래로 커스텀 CSS 추가 -->
+    <style>
+    /*여기서부터 커스텀 CSS*/
