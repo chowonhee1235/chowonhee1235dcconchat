@@ -47,6 +47,125 @@
     <script src="./js/chat-loader.js?ver=20200226"></script>
     <link rel="stylesheet" href="https://chat.lastorder.xyz/css/jsassist.css" type="text/css"/>
     <link rel="stylesheet" href="https://chat.lastorder.xyz/css/chatassist.css" type="text/css"/>
+        <!-- 아래로 커스텀 CSS 추가 -->
+    <style>
+    /*여기서부터 커스텀 CSS*/
+@font-face {
+ font-family: 'BMJUA';
+ src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+ font-weight: normal;
+ font-style: normal;
+}       
+ .chat_div .chat_text_nickname{
+    font-family: "배민 주아체","BMJUA", Sans-Serif!important;
+    font-size: 20px!important;
+    display: block;
+    text-shadow: 0px 0px 0px #000000!important;
+    width: 210px;
+    text-align: center;
+    border-radius: 1px 1px 1px 1px;
+    color: rgba(000,000,000,.5)!important;
+    font-weight: bold;
+    opacity: .95;
+    display: none;/**//**//**/
+}
+.chat_div .chat_text_message{
+    font-family: "배민 주아체","BMJUA", Sans-Serif!important;
+    font-size: 17px!important;
+    line-height: 17px!important;
+    color: #00000!important;
+    width: 174px!important;
+    text-shadow: 0px 0px 0px #000000!important;
+    background-color:#B5B2FF!important;
+    border-top: #000000 solid 3px;
+    border-left: #000000 solid 3px;
+    border-bottom: #000000 solid 3px;
+    border-right: #000000 solid 3px;
+    border-radius: 7px 7px 7px 7px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px!important;
+    max-height: 95px;
+    color:#000000!important;
+    opacity: .95;
+}
+.chat_div .chat_platform_tvpot,.chat_div  .chat_platform_twitch,.chat_div  .chat_platform_youtube, .chat_platform_info{
+    display: block!important;
+    position: relative!important;
+    visibility: hidden!important;
+    width: 10px!important;
+    left: 198px!important;
+    bottom: -12px!important;
+}
+img{
+    max-width: 95px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-self: center;
+    display: block;
+    overflow: scroll;
+    vertical-align: bottom;
+    max-height:600px;
+
+}
+/*스트리머뱃지*/
+.chat_text_nickname img{
+    display: inline;
+    height: 14px;
+    position: absolute;
+    left: 1px;
+    margin:0px;
+}
+
+.twitch_emoticon{/*트위치이모티콘*/
+    display: inline;
+    margin-right: -3.1px;
+    height: 2rem;
+}
+
+@keyframes rotation {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(359deg);}
+}
+
+    </style>
+</head>
+<body>
+<script id="chat-template" type="text/x-handlebars-template">
+    <div class="chat_div" id="chat_{{num}}">
+        <span class="chat_platform_{{platform}}"></span>
+        <span class="chat_text_nickname">
+            {{{nickname}}}
+        </span>
+        <div class="chat_text_message">
+            {{{message}}}
+        </div>
+    </div>
+</script>
+<script id="chat-template-sticky" type="text/x-handlebars-template">
+    <div class="fixed_chat">
+    {{#ifCond nickname notitle}}
+        <div class="chat_text_message_sticky_logo">
+            {{{message}}}
+        </div>
+    {{else}}
+        <span class="chat_platform_{{platform}}"></span>
+        <span class="chat_text_nickname">
+            {{{nickname}}}
+        </span>
+        <div class="chat_text_message_sticky">
+            {{{message}}}
+        </div>
+    {{/ifCond}}
+    </div>
+</script>
+<div class="chat_wrapper">
+    <div class="chat_container">
+    </div>
+</div>
+</body>
+</html>
 
       
     
