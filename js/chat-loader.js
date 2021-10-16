@@ -46,7 +46,7 @@ window.chat.def_config.backgroundColor = "255, 255, 255";
 window.chat.def_config.backgroundAlpha = 0;
 window.chat.def_config.chatBackgroundColor = "255, 255, 255";
 window.chat.def_config.chatBackgroundAlpha = 0.25;
-window.chat.def_config.debug = false;
+window.chat.def_config.debug = true;
 
 // 가져온 채팅 스타일중 빠진 값은 기본값으로 지정
 for(var key in window.chat.def_config) {
